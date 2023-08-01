@@ -1,3 +1,6 @@
+#Creator Okayet/Deserved
+#Give republishing the code with modifications
+#smile it looks good on u :)
 import random
 
 # Dictionary to map numbers to pipes
