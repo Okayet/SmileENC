@@ -47,8 +47,8 @@ def decrypted():
     print("Decrypted number:", decrypted_number)
 
     print("Hello, do you have keys of the encrypted version?")
-    print("1). Yes, of course, how come I'll read it without keys")
-    print("2). No, I'm a soft ass bitch")
+    print("1). Yes, of course, how come I'll read it without keys >.<")
+    print("2). No, I'm a good person and i like to smile!")
     print("3). Quit, I'm an even softer bitch!")
     choiceD = input("Choose from 1, 2, 3: ")
 
