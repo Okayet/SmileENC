@@ -1,5 +1,7 @@
 # SmileENC
-Encryption system called smile to communicate anonymously without the goverment knowing
+Mathematical Encryption system called smile to communicate anonymously without the government knowing.
+
+How to use: (unix: python3 script_name.py) (windows: run with python 3, from terminal: python3 script_name.py)
 
 Overview:
 Anonymous Secure Chat is a powerful and user-friendly encryption tool designed to ensure secure and private communication between users. This open-source project empowers individuals to have confidential conversations without the fear of unauthorized access to their sensitive information. With customizable layers of encryption, the system provides robust protection against brute force attacks and unauthorized decryption attempts.
@@ -27,6 +29,7 @@ While this encryption system provides robust security measures, it is essential 
 
 Contributing:
 Contributions to this project are highly appreciated! Developers can help improve the encryption algorithms, UI/UX, documentation, or report and fix bugs. All contributors are expected to adhere to the project's code of conduct and prioritize user privacy and security.
+if u have any ideas write it down on fix/bug section so i can imporve the script by ur needs.
 
 Disclaimer:
 Please use this encryption system responsibly and ethically. The project maintainers and contributors disclaim any responsibility for the misuse or illegal use of this tool by any individual or entity.
