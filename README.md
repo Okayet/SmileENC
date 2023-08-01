@@ -2,6 +2,7 @@
 Mathematical Encryption system called smile to communicate anonymously without the government knowing.
 
 How to use: (unix: python3 script_name.py) (windows: run with python 3, from terminal: python3 script_name.py)
+the smile enc system was created only to upgrade the encryption used on the script called sentenceENC.py so using smile.py u add chances of ur messages being un-decryptable. with the key u got from sentenceENC.py (example:11121221221) is the most important key without this key the numbers encrypted would be close to impossible to decrypt  but also sending these keys would give no advantage to people trying to expose u since the keys u created in smile.py script, but i would suggest using netcat to send these keys to ur friends or so ofc for the (11121221) keys so the messages will be 100% un-decryptable and remember to use netcat u need to find trustworthy people but u can find different ways around this problem, modify it however u would like.
 
 Overview:
 Anonymous Secure Chat is a powerful and user-friendly encryption tool designed to ensure secure and private communication between users. This open-source project empowers individuals to have confidential conversations without the fear of unauthorized access to their sensitive information. With customizable layers of encryption, the system provides robust protection against brute force attacks and unauthorized decryption attempts.
