@@ -31,4 +31,4 @@ Contributions to this project are highly appreciated! Developers can help improv
 Disclaimer:
 Please use this encryption system responsibly and ethically. The project maintainers and contributors disclaim any responsibility for the misuse or illegal use of this tool by any individual or entity.
 
-LIcense: MIT license
+LIcense: Apache 2.0
