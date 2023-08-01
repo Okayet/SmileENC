@@ -49,7 +49,7 @@ def decrypted():
     print("Hello, do you have keys of the encrypted version?")
     print("1). Yes, of course, how come I'll read it without keys >.<")
     print("2). No, I'm a good person and i like to smile!")
-    print("3). Quit, I'm an even softer bitch!")
+    print("3). Quit, I like people who i trust!")
     choiceD = input("Choose from 1, 2, 3: ")
 
     if choiceD == "1":
@@ -126,8 +126,8 @@ def encrypted():
 
     print("Hello, do you want your encryption to have keys?")
     print("1). Yes, of course it's better.")
-    print("2). No, I'm lame.")
-    print("3). Quit, I'm a bitch!")
+    print("2). No, I'm a cutie patootie.")
+    print("3). Quit, I'm love helpting people!")
     choice1 = input("Choose from 1, 2, 3: ")
 
     if choice1 == "1":
