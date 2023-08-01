@@ -1,3 +1,6 @@
+#Creator Okayet/Deserved
+#Give republishing the code with modifications
+#smile it looks good on u :)
 def decode_message(number, key):
     substrings = []
     t = 0
