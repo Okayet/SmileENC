@@ -1,3 +1,6 @@
+#Creator Okayet/Deserved
+#Give republishing the code with modifications
+#smile it looks good on u :)
 def convert_words_to_numbers(string):
     result = []
     combined_result = ""
