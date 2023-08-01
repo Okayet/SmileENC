@@ -1,8 +1,43 @@
 # SmileENC
 Mathematical Encryption system called smile to communicate anonymously without the government knowing.
 
-How to use: (unix: python3 script_name.py) (windows: run with python 3, from terminal: python3 script_name.py)
-the smile enc system was created only to upgrade the encryption used on the script called sentenceENC.py so using smile.py u add chances of ur messages being un-decryptable. with the key u got from sentenceENC.py (example:11121221221) is the most important key without this key the numbers encrypted would be close to impossible to decrypt  but also sending these keys would give no advantage to people trying to expose u since the keys u created in smile.py script, but i would suggest using netcat to send these keys to ur friends or so ofc for the (11121221) keys so the messages will be 100% un-decryptable and remember to use netcat u need to find trustworthy people but u can find different ways around this problem, however id suggest u and ur friends set keys for the most important key as well so encryption the key would be un-decryptable make sure the lenght of the key wouldnt be noticable use larger numbers for keys to encrypt the main key (the most important key) this method wouldnt need enought trust to give to other people i prefer this method the messages should look like something like this (|..|-|--|, key: |..|-|..) for the main key u wont need to use the sentenceDEC.py cause its only numbers, modify it however u would like.
+Secure Messaging Encryption System
+
+This encryption system is designed to provide enhanced security for confidential communications between users. It consists of three Python scripts: smile.py, sentenceENC.py, and sentenceDEC.py.
+
+Encryption Process:
+
+Use sentenceENC.py: This script takes a sentence as input and converts it into a series of numbers using a unique encryption algorithm. The output is a sequence of numbers, forming the main encryption key (e.g., 11121221221).
+
+Use smile.py (Optional): smile.py can further encrypt the main key using customizable layers of encryption with additional keys. As a result, the main key becomes virtually un-decryptable without the specific keys used for encryption. Sharing this encrypted main key with trusted recipients poses no risk to the security of the messages.
+
+Decryption Process:
+
+Decryption with smile.py: If smile.py was used for encryption, the recipients should use the script to decrypt the main key using the additional keys shared through netcat. Only authorized users with the correct keys can obtain the original main key, ensuring secure message decryption.
+
+Decryption with sentenceDEC.py: If only sentenceENC.py was used for encryption, sentenceDEC.py can be used to decrypt the original sentence using the main encryption key (11121221221). The decrypted message will be revealed in plain text.
+
+Security Recommendations:
+
+The main encryption key (11121221221) is crucial for decryption. Protect it at all costs, as unauthorized access to this key would compromise message security.
+
+For increased security, use smile.py to apply multiple layers of encryption with additional keys. Share these keys using netcat with trusted individuals to ensure secure communications.
+
+When using smile.py, the messages will appear as a sequence of numbers with a key, like this: (encoded_message, key). The key used to encrypt the message can be decrypted using sentenceDEC.py.
+
+Usage:
+
+On Unix systems (e.g., Linux, macOS), run the encryption/decryption scripts with Python 3 using the following commands:
+
+Copy code
+python3 script_name.py
+On Windows, run the encryption/decryption scripts using Python 3 in the terminal:
+
+Copy code
+python3 script_name.py
+Security Note:
+Ensure you only share keys and encrypted messages with trusted parties. Misusing the encryption system for malicious purposes is strictly discouraged. Always use encryption responsibly and ethically.
+
 
 Overview:
 Anonymous Secure Chat is a powerful and user-friendly encryption tool designed to ensure secure and private communication between users. This open-source project empowers individuals to have confidential conversations without the fear of unauthorized access to their sensitive information. With customizable layers of encryption, the system provides robust protection against brute force attacks and unauthorized decryption attempts.
