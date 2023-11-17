@@ -1,5 +1,5 @@
 # SmileENC
-Mathematical Encryption system called smile to communicate anonymously without the government knowing.
+Mathematical Encryption system called smile to communicate anonymously.
 
 Secure Messaging Encryption System
 
